@@ -99,22 +99,14 @@ export default function Footer() {
         <div style={styles.divider} />
 
         <div style={styles.bottom}>
-          <p style={styles.copy}>
-            © {year} CarStore. All rights reserved.
-          </p>
+          <p style={styles.copy}>© {year} CarStore. All rights reserved.</p>
 
           <div style={styles.bottomLinks}>
-            <a className="ft-link" href="#" style={{ display: 'inline', padding: '0 8px' }}>
-              Terms
-            </a>
+            <a className="ft-link" href="#" style={{ display: 'inline', padding: '0 8px' }}>Terms</a>
             <span style={styles.dot}>·</span>
-            <a className="ft-link" href="#" style={{ display: 'inline', padding: '0 8px' }}>
-              Privacy
-            </a>
+            <a className="ft-link" href="#" style={{ display: 'inline', padding: '0 8px' }}>Privacy</a>
             <span style={styles.dot}>·</span>
-            <a className="ft-link" href="#" style={{ display: 'inline', padding: '0 8px' }}>
-              Cookies
-            </a>
+            <a className="ft-link" href="#" style={{ display: 'inline', padding: '0 8px' }}>Cookies</a>
           </div>
         </div>
       </div>
@@ -168,6 +160,3 @@ const styles = {
   bottomLinks: { display: 'flex', alignItems: 'center', gap: 4 },
   dot: { color: '#374151', fontSize: '.8rem' },
 };
-
-// ❌ DO NOT add "export default Footer;" here — the top of the file already
-// exports it via "export default function Footer()".
